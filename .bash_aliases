@@ -9,11 +9,22 @@ alias gp="git remote prune origin"
 alias gb="git branch"
 
 # Docker aliases
-alias postgres="docker run --rm -it -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=postgres -d postgres:13.1-alpine"
+alias postgres="docker run --rm --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e PGUSER=postgres -d postgres:13.1-alpine"
+alias pg="docker exec -it postgres /bin/bash"
 alias psql="docker exec -it postgres psql -U postgres"
 alias dp="docker ps"
 alias dpa="docker ps -a"
 alias dr="docker run --rm -it"
+alias neo="docker run \
+	    --env=NEO4J_AUTH=none \
+	    --publish=7474:7474 --publish=7687:7687 \
+            -d neo4j:4.2.0"
 
 # persist iex history between sessions
 alias iex="iex --erl \"-kernel shell_history enabled\"" 
+
+
+# Heroku
+alias h="heroku"
+alias a="apps"
+
