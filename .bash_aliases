@@ -5,8 +5,9 @@ alias gc="git checkout"
 alias gl="git log"
 alias gs="git status"
 alias gd="git diff"
-alias gp="git remote prune origin"
+alias gprune="git remote prune origin"
 alias gb="git branch"
+alias gp="git push"
 
 # Docker aliases
 alias postgres="docker run --rm --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e PGUSER=postgres -d postgres:13.1-alpine"
