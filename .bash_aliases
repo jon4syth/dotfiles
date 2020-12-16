@@ -33,5 +33,11 @@ alias iex="iex --erl \"-kernel shell_history enabled\""
 alias h="heroku"
 alias a="apps"
 
+
 # Emacs
 alias e='emacs -nw'
+
+# Tmux
+alias ta="tmux attach -t"
+alias tl="tmux ls"
+
