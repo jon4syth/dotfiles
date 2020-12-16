@@ -20,6 +20,10 @@ alias neo="docker run \
 	    --env=NEO4J_AUTH=none \
 	    --publish=7474:7474 --publish=7687:7687 \
             -d neo4j:4.2.0"
+alias rethink="docker run --rm --name rethink -p 8080:8080 -p 29015:29015 -p 280
+15:28015 \
+	        -v /home/jon4syth/myprojects/cls-app:/data -d flash4syth/cls:rethinkdb"
+alias stopneo="docker stop neo"
 
 # persist iex history between sessions
 alias iex="iex --erl \"-kernel shell_history enabled\"" 
@@ -29,3 +33,5 @@ alias iex="iex --erl \"-kernel shell_history enabled\""
 alias h="heroku"
 alias a="apps"
 
+# Emacs
+alias e='emacs -nw'
