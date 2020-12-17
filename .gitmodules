@@ -1,3 +1,9 @@
 [submodule "vim/pack/my-packages/start/vim-elixir"]
 	path = vim/pack/my-packages/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
+[submodule "vim/pack/my-packages/start/surround"]
+	path = vim/pack/my-packages/start/surround
+	url = https://tpope.io/vim/surround.git
+[submodule "vim/pack/my-packages/start/repeat"]
+	path = vim/pack/my-packages/start/repeat
+	url = https://tpope.io/vim/repeat.git
