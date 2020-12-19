@@ -10,3 +10,6 @@
 [submodule "vim/pack/my-packages/start/alchemist.vim"]
 	path = vim/pack/my-packages/start/alchemist.vim
 	url = https://github.com/slashmili/alchemist.vim.git
+[submodule "vim/pack/my-packages/start/coc.nvim"]
+	path = vim/pack/my-packages/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
