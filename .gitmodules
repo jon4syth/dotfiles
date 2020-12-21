@@ -13,3 +13,6 @@
 [submodule "vim/pack/my-packages/start/coc.nvim"]
 	path = vim/pack/my-packages/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "tmux/plugins/tpm/tpm"]
+	path = tmux/plugins/tpm/tpm
+	url = https://github.com/tmux-plugins/tpm
