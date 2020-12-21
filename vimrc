@@ -25,3 +25,6 @@ nnoremap <leader>f 1z=
  nnoremap <leader>s :set spell!
 "
 " END SPELLING SECTION }}
+
+" Fix node path for nvm (node version manager) node install
+let g:coc_node_path = '/home/jon4syth/.nvm/versions/node/v14.14.0/bin/node'
