@@ -8,6 +8,8 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set clipboard=unnamedplus
+set number
+set tabstop=2 shiftwidth=2 expandtab
 
 " {{ START SPELLING SECTION
 "
@@ -28,3 +30,6 @@ nnoremap <leader>f 1z=
 
 " Fix node path for nvm (node version manager) node install
 let g:coc_node_path = '/home/jon4syth/.nvm/versions/node/v14.14.0/bin/node'
+
+" Settings for vim-closetag plugin
+let g:closetag_filenames = '*.html,*.eex,*.leex'

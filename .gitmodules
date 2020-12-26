@@ -16,3 +16,6 @@
 [submodule "tmux/plugins/tpm/tpm"]
 	path = tmux/plugins/tpm/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "vim/pack/my-packages/start/vim-closetag"]
+	path = vim/pack/my-packages/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
