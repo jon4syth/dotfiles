@@ -31,6 +31,8 @@ alias iex="iex --erl \"-kernel shell_history enabled\""
 alias mps="mix phx.server"
 alias imps="iex --erl \"-kernel shell_history enabled\" -S mix phx.server"
 
+# Gigalixir
+alias gig="gigalixir"
 
 # Heroku
 alias h="heroku"
