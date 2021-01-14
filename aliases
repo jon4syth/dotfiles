@@ -11,7 +11,7 @@ alias gp="git push"
 
 # Docker aliases
 alias postgres="docker run --rm --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -e PGUSER=postgres -d postgres:13.1-alpine"
-alias pg="docker exec -it postgres /bin/bash"
+alias pg="docker exec -it postgres /usr/local/bin/psql"
 alias psql="docker exec -it postgres psql -U postgres"
 alias dp="docker ps"
 alias dpa="docker ps -a"
