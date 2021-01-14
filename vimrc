@@ -32,4 +32,4 @@ nnoremap <leader>f 1z=
 let g:coc_node_path = '/home/jon4syth/.nvm/versions/node/v14.14.0/bin/node'
 
 " Settings for vim-closetag plugin
-let g:closetag_filenames = '*.html,*.eex,*.leex'
+let g:closetag_filenames = '*.html,*.eex,*.leex,*.ex'
