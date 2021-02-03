@@ -16,3 +16,6 @@
 [submodule "vim/pack/my-packages/start/vim-closetag"]
 	path = vim/pack/my-packages/start/vim-closetag
 	url = https://github.com/alvan/vim-closetag.git
+[submodule "vim/pack/my-packages/start/vim-test"]
+	path = vim/pack/my-packages/start/vim-test
+	url = https://github.com/vim-test/vim-test.git
