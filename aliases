@@ -19,11 +19,13 @@ alias dr="docker run --rm -it"
 alias neo="docker run \
 	    --env=NEO4J_AUTH=none \
 	    --publish=7474:7474 --publish=7687:7687 \
-            -d neo4j:4.2.0"
+            -d neo4j:4.2.3"
 alias rethink="docker run --rm --name rethink -p 8080:8080 -p 29015:29015 -p 280
 15:28015 \
 	        -v /home/jon4syth/myprojects/cls-app:/data -d flash4syth/cls:rethinkdb"
 alias stopneo="docker stop neo"
+alias mysql="docker run --rm --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD='yes' -p 3306:3306 -p 33060:33060 -d mysql:8"
+alias stopmysql="docker stop mysql"
 
 # Elixir
 # persist iex history between sessions
@@ -46,3 +48,5 @@ alias e='emacs -nw'
 alias ta="tmux attach -t"
 alias tl="tmux ls"
 
+# Helpers
+alias phttp="python -m 'http.server'"
