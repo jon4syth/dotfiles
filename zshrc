@@ -102,8 +102,8 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 
 # Env Vars
-if [ -f ~/.bash_env ]; then
-    . ~/.bash_env
+if [ -f ~/.envs ]; then
+    . ~/.env
 fi
 
 # ASDF
