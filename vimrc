@@ -6,6 +6,10 @@ let mapleader=" "
 
 filetype plugin indent on
 syntax on
+colorscheme desert
+" colorscheme [industry]
+" colorscheme [pablo]
+" colorscheme [slate]
 set encoding=utf-8
 set clipboard=unnamedplus
 set number
@@ -75,3 +79,8 @@ nmap <silent> t<C-g> :TestVisit<CR>
 
 " runs test commands in a small tmux pane at the bottom of your terminal.
 "let test#strategy = "vimux"
+
+nmap <silent> gd <Plug>(coc-definition)
+
+" Highlighting scheme for pop-ups
+hi Pmenu ctermbg=black ctermfg=white
