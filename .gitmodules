@@ -19,3 +19,9 @@
 [submodule "vim/pack/my-packages/start/vim-test"]
 	path = vim/pack/my-packages/start/vim-test
 	url = https://github.com/vim-test/vim-test.git
+[submodule "vim/pack/my-packages/start/blamer.nvim"]
+	path = vim/pack/my-packages/start/blamer.nvim
+	url = https://github.com/APZelos/blamer.nvim.git
+[submodule "vim/pack/my-packages/start/fzf"]
+	path = vim/pack/my-packages/start/fzf
+	url = https://github.com/junegunn/fzf.git
