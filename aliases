@@ -24,10 +24,11 @@ alias rethink="docker run --rm --name rethink -p 8080:8080 -p 29015:29015 -p 280
 15:28015 \
 	        -v /home/jon4syth/myprojects/cls-app:/data -d flash4syth/cls:rethinkdb"
 alias stopneo="docker stop neo"
-alias mysql="docker run --rm --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD='yes' -p 3306:3306 -p 33060:33060 -d mysql:8"
+alias myql="docker run --rm --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD='yes' -p 3306:3306 -p 33060:33060 -d mysql:8"
 alias stopmysql="docker stop mysql"
 alias my="docker exec -it smartlink_iot_mysql -h $DB_HOST -u $DB_STAGING_USER -p $DB_STAGING_PASS"
 alias dc="docker-compose"
+alias de="docker exec -it"
 
 # Elixir
 # persist iex history between sessions
@@ -63,3 +64,8 @@ alias vim="nvim"
 # weathermatic aws cloudwatch logs
 alias prodlogs="aws logs tail --follow production/var/log/production-sln-iot"
 alias stagelogs="aws logs tail --follow staging/var/log/staging-sln-iot"
+alias diffy="diff -y --suppress-common-lines"
+
+# AWS
+alias ai="aws iot"
+alias al="aws logs"

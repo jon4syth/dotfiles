@@ -36,7 +36,7 @@ nnoremap <leader>f 1z=
 let g:coc_node_path = '/home/jon4syth/.nvm/versions/node/v14.14.0/bin/node'
 
 " Settings for vim-closetag plugin
-let g:closetag_filenames = '*.html,*.eex,*.leex,*.ex'
+let g:closetag_filenames = '*.html,*.eex,*.leex,*.ex,*.erb'
 
 """
 "Docs on vim-test
@@ -84,3 +84,4 @@ nmap <silent> gd <Plug>(coc-definition)
 
 " Highlighting scheme for pop-ups
 hi Pmenu ctermbg=black ctermfg=white
+
